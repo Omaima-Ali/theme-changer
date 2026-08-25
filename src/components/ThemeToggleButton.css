@@ -1,0 +1,41 @@
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.theme-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.toggle-track {
+  width: 64px;
+  height: 34px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  transition: background 0.3s ease;
+  background: linear-gradient(135deg, #34d399, #3b82f6);
+}
+
+.toggle-track.dark {
+  background: linear-gradient(135deg, #1e3a8a, #1f2937);
+  justify-content: flex-end;
+}
+
+.toggle-track.light {
+  justify-content: flex-start;
+}
+
+.toggle-knob {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
