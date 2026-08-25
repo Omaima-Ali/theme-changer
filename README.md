@@ -4,7 +4,7 @@ A modern, responsive landing page built with React that features a global Light/
 
 This project was created specifically to learn and practice fundamental **React Hooks** and global state management using the **React Context API**.
 
-## 🧠 What I Learned (React Concepts)
+##  What I Learned (React Concepts)
 
 This project focuses on moving away from "prop drilling" (passing data through every component) and instead uses a central "Control Panel" for the app's state.
 
